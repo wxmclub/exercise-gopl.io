@@ -33,6 +33,7 @@ const (
 // 练习 1.5： 修改前面的Lissajous程序里的调色板，由黑色改为绿色。我们可以
 // 用 color.RGBA{0xRR, 0xGG, 0xBB, 0xff} 来得到 #RRGGBB 这个色值，三个十六进制的字符串分
 // 别代表红、绿、蓝像素。
+// go run main.go > out.gif
 func main() {
 	//!-main
 	// The sequence of images is deterministic unless we seed

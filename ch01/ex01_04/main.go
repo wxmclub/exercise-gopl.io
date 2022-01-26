@@ -7,6 +7,7 @@ import (
 )
 
 // 练习 1.4： 修改 dup2 ，出现重复的行时打印文件名称。
+// go run main.go demo1.txt demo2.txt
 func main() {
 	counts := make(map[string]int)
 	fileTags := make(map[string][]string)

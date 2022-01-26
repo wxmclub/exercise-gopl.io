@@ -39,6 +39,7 @@ const (
 
 // 练习 1.6： 修改Lissajous程序，修改其调色板来生成更丰富的颜色，然后修改SetColorIndex
 // 的第三个参数，看看显示结果吧。
+// go run main.go > out.gif
 func main() {
 	//!-main
 	// The sequence of images is deterministic unless we seed
